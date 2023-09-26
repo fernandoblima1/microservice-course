@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Launch Spring Boot",
+      "mainClass": "${workspaceFolder}/src/main/java/br/gov/pi/etipi/msclientes/MsclientesApplication.java",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MsclientesApplication<msclientes>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.gov.pi.etipi.msclientes.MsclientesApplication",
+      "projectName": "msclientes",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MsclientesApplication<msclientes>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "br.com.github.msclientes.MsclientesApplication",
+      "projectName": "msclientes",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
