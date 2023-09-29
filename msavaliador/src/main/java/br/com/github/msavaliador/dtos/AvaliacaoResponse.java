@@ -11,8 +11,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class SituacaoDTO {
-  private DadosCliente cliente;
-  private List<CartaoCliente> cartoes;
-
+public class AvaliacaoResponse {
+    List<CartaoCliente> cartoes;
 }
